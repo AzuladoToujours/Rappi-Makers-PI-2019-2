@@ -1,0 +1,33 @@
+{
+  "name": "contract-service",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "env TZ='America/Bogota' nodemon node src/local.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.3",
+    "moment-timezone": "^0.5.28",
+    "morgan": "^1.10.0",
+    "node-schedule": "^1.3.2",
+    "nodemon": "^2.0.3",
+    "pdfkit": "^0.11.0",
+    "pg": "^8.0.3",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "prettier": "^2.0.5"
+  }
+}

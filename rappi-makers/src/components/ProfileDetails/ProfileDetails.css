@@ -1,0 +1,40 @@
+.profile-body {
+  margin: 1% 20%;
+}
+
+.profile-info-contact,
+.profile-info-location,
+.profile-info-general {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.profile-info-contact-title,
+.profile-info-location-title,
+.profile-info-general-title {
+  flex: 100%;
+  text-align: center;
+  font-size: 30px;
+  color: rgb(185, 185, 185);
+  border-bottom: 1px solid #e0e0e0;
+  letter-spacing: 1px;
+}
+
+.profile-info-contact > .profile-data,
+.profile-info-general > .profile-data {
+  flex: 50%;
+  text-align: center;
+}
+.profile-info-location > .profile-data {
+  flex: 33%;
+  text-align: center;
+}
+.profile-data > h3 {
+  font-size: 23px;
+  letter-spacing: 1px;
+}
+
+.profile-data > p {
+  font-size: 18px;
+}

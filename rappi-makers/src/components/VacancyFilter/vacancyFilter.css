@@ -1,0 +1,33 @@
+.filter-form {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.filter-title {
+  flex: 100%;
+}
+
+.filter-input {
+  display: block;
+  flex: 0 0 25%;
+  margin: 0 2.5%;
+  padding: 0.6rem 1rem 0.6rem 0.3rem;
+  border-radius: 0.2rem;
+  background-color: #fdfdfd;
+  border: 1px solid rgb(150, 150, 150);
+  font-size: 14px;
+  letter-spacing: 2px;
+  transition: all 0.2s ease-in-out;
+}
+.filter-input:focus {
+  border-color: rgba(0, 115, 247, 0.507);
+  box-shadow: 1px 1px 2px 3px rgba(0, 115, 247, 0.233);
+}
+
+@media only screen and (max-width: 1034px) {
+  .filter-input {
+    flex: 0 0 90%;
+  }
+}

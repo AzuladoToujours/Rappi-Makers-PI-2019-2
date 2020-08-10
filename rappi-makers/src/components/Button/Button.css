@@ -1,0 +1,21 @@
+.general-btn {
+  min-width: 7rem;
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(108, 160, 255);
+  color: rgb(108, 160, 255);
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 17px;
+  transition: 0.2s ease-in-out;
+  margin: 2% 0;
+}
+.general-btn:hover {
+  background-color: rgb(108, 160, 255);
+  color: white;
+}
+
+.general-btn:active {
+  transform: scale(0.98);
+}

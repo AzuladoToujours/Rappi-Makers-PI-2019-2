@@ -1,0 +1,18 @@
+.message-wrapper {
+  width: 100%;
+}
+.message-wrapper > * {
+  width: 50%;
+}
+
+.message-container {
+  padding: 1rem;
+  text-align: center;
+
+  overflow-wrap: break-word;
+}
+
+.welcome-title {
+  color: rgb(252, 110, 117);
+  font-size: 25px;
+}

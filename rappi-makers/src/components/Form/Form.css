@@ -1,0 +1,20 @@
+.form-container {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  margin: 2% 4%;
+}
+
+.form-card {
+  padding: 2rem 1.2rem;
+  max-width: 40rem;
+  width: 100%;
+  min-width: 15rem;
+  box-shadow: 3px 3px 3px 5px rgba(235, 235, 235, 0.5);
+}
+
+.spinner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

@@ -1,0 +1,10 @@
+.candidate-list-container {
+  margin: 2% 10%;
+}
+
+.candidate-list {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2%;
+}

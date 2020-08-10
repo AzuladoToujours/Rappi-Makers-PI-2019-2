@@ -1,0 +1,6 @@
+.vacancy-detail-container {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  margin: 2% 20%;
+}

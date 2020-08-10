@@ -1,0 +1,25 @@
+.contract-details-container {
+  margin: 0 10%;
+}
+
+.contract-info-container {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.contract-info-data {
+  flex: 0 0 30%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 780px) {
+  .contract-info-data {
+    flex: 0 0 40%;
+  }
+}
+
+@media only screen and (max-width: 534px) {
+  .contract-info-data {
+    flex: 0 0 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.candidate-container {
+  padding: 1.2rem;
+  box-shadow: 2px 4px 10px 0px rgb(175, 175, 175);
+  flex: 30%;
+  max-width: 25rem;
+  margin: 2% 2.5%;
+  text-align: center;
+}
+
+.candidate-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.hired-spinner-container,
+.candidate-spinner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

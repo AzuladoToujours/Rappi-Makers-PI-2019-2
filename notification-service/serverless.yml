@@ -1,0 +1,22 @@
+service: lambda-notification-service
+provider:
+ name: aws
+ iamRoleStatements:
+  - Effect: "Allow"
+    Action:
+     - "cloudformation:DescribeStackResource"
+    Resource: "*"
+ runtime: nodejs10.x
+ apiGateway:
+    restApiId: kijff7tvk4
+    restApiRootResourceId: jlhys8b6mi
+ memorySize: 128
+ timeout: 10
+ stage: prod
+ region: us-east-2
+
+functions:
+ api:
+   handler: src/lambda.universal
+   events:
+     - http: ANY {proxy+}

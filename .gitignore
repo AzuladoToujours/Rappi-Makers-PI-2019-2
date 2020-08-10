@@ -1,0 +1,15 @@
+/auth-service/node_modules
+/auth-service/.env
+/contract-service/node_modules
+/contract-service/.env
+/notification-service/node_modules
+/notification-service/.env
+/payment-service/node_modules
+/payment-service/.env
+/restaurant-service/node_modules
+/restaurant-service/.env
+/user-service/node_modules
+/user-service/.env
+/vacancy-service/node_modules
+/vacancy-service/.env
+/rappi-makers/node_modules

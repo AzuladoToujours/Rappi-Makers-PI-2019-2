@@ -1,0 +1,11 @@
+.contract-list-container {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  margin: 3% 10%;
+}
+
+.contract-list {
+  display: flex;
+  flex-flow: row wrap;
+}

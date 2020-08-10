@@ -1,0 +1,27 @@
+.signin-input {
+  display: block;
+  width: 95%;
+  margin: 0.7rem 0;
+  padding: 0.6rem 1rem 0.6rem 0.3rem;
+  border: none;
+  border-bottom: 1px solid #9b9b9b;
+  font-size: 14px;
+  letter-spacing: 2px;
+  transition: 0.2s ease-in-out;
+}
+
+.signin-input:focus {
+  border-bottom-color: rgba(0, 115, 247, 0.507);
+}
+
+.signin-btn {
+  width: 35%;
+}
+
+.forgot-link {
+  color: rgb(0, 89, 255);
+}
+
+.forgot-link:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,47 @@
+.vacancy-card {
+  flex: 0 0 35%;
+  margin: 2% 2.5%;
+  padding: 1.2%;
+  box-shadow: 2px 5px 10px 0px rgba(175, 175, 175, 0.281);
+  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+.vacancy-card-body p {
+  color: black;
+}
+
+.vacancy-description {
+  color: rgb(252, 110, 117);
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.vacancy-info {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.vacancy-data {
+  flex: 50%;
+  text-align: center;
+}
+
+.vacancy-btn {
+  flex: 100%;
+}
+
+@media only screen and (max-width: 1050px) {
+  .vacancy-card {
+    flex: 0 0 35%;
+  }
+}
+
+@media only screen and (max-width: 830px) {
+  .vacancy-card {
+    flex: 0 0 90%;
+  }
+}

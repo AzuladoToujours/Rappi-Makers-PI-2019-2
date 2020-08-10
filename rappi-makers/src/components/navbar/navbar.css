@@ -1,0 +1,88 @@
+.navbar {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  background-color: rgb(23, 22, 24);
+  border-bottom: 3px solid rgb(206, 206, 206);
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex: 0 0 55%;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: rgb(207, 207, 207);
+  font-size: 20px;
+}
+
+.rappi-logo {
+  width: 5rem;
+}
+
+.navbar-link:hover {
+  color: rgb(143, 143, 143);
+}
+
+.burger-menu {
+  display: none;
+  cursor: pointer;
+}
+.burger-menu > div {
+  width: 35px;
+  height: 3px;
+  background-color: rgb(185, 185, 185);
+  margin: 5px;
+  border-radius: 2px;
+  transition: all 0.4s ease-in-out;
+}
+
+@media only screen and (max-width: 1050px) {
+  body {
+    overflow-x: hidden;
+    /* position: relative;
+    width: 100%; */
+  }
+  .navbar-list {
+    position: absolute;
+    top: 7.2vh;
+    right: 0;
+    flex-flow: column wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    height: 90.9vh;
+    transform: translateX(100%);
+    transition: all 0.5s ease-in-out;
+    background-color: rgb(32, 32, 32);
+    opacity: 0.8;
+  }
+  .navbar-link {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+    font-size: 20px;
+  }
+  .burger-menu {
+    display: block;
+  }
+
+  .nav-active {
+    transform: translateX(0%);
+  }
+
+  .toggle > .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .toggle > .line2 {
+    opacity: 0;
+  }
+  .toggle > .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}

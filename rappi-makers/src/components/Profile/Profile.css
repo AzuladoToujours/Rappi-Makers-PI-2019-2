@@ -1,0 +1,13 @@
+.profile-container {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.spinner-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 2% 0;
+}

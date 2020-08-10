@@ -1,0 +1,24 @@
+.vacancy-detail {
+  flex: 0 0 60%;
+  padding: 1.2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  box-shadow: 3px 1px 10px 0px rgba(131, 131, 131, 0.5);
+}
+
+.vacancy-detail-description-container {
+  flex: 0 0 100%;
+  text-align: center;
+}
+.vacancy-info-container {
+  flex: 0 0 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.vacancy-detail-info-container > .vacancy-data {
+  flex: 0 0 30%;
+  text-align: center;
+}

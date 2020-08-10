@@ -1,0 +1,6 @@
+.hired-list {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 2%;
+}

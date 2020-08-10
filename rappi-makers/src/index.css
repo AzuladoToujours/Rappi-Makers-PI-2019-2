@@ -1,0 +1,32 @@
+*,
+*::after,
+*::before {
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-width: 320px;
+  overflow-wrap: break-word;
+}
+
+code {
+  font-family: 'Roboto', sans-serif;
+}
+
+select {
+  padding: 0.6rem 1rem 0.6rem 0.3rem;
+  font-size: 14px;
+  border-radius: 0.2rem;
+  background-color: #fdfdfd;
+  border: 1px solid rgb(150, 150, 150);
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(https://img.icons8.com/android/24/000000/expand-arrow.png) 98% / 3% no-repeat;
+}

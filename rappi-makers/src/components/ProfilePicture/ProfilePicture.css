@@ -1,0 +1,42 @@
+.picture-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.picture-container {
+  flex-flow: row wrap;
+}
+
+.picture-container > img {
+  width: 15rem;
+
+  border: 1px solid #ececec;
+}
+
+.profile-actions {
+  flex: 0 0 100%;
+  margin: 2% 0;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-actions > a {
+  padding: 0.6rem 3rem;
+  border: 1px solid;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(108, 160, 255);
+  color: rgb(108, 160, 255);
+  text-decoration: none;
+  margin: 2%;
+  border-radius: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.profile-actions > a:hover {
+  background-color: rgb(108, 160, 255);
+  color: white;
+}
+
+.profile-btn {
+  width: 20%;
+}

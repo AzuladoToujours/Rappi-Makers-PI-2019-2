@@ -1,0 +1,37 @@
+.vacancy-links-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+.vacancy-links-container > a {
+  padding: 0.5rem 1.2rem;
+  border: 1px solid;
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(108, 160, 255);
+  color: rgb(108, 160, 255);
+  text-decoration: none;
+  margin: 2%;
+  border-radius: 1rem;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+
+.vacancy-links-container > a:hover {
+  background-color: rgb(108, 160, 255);
+  color: white;
+}
+
+.vacancy-spinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 594px) {
+  .vacancy-links-container > a {
+    display: block;
+    width: 100%;
+  }
+}

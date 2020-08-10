@@ -1,0 +1,14 @@
+.vacancies-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  margin: 1.5% 0%;
+}
+
+.filter-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 1.5% auto;
+  width: 80%;
+}

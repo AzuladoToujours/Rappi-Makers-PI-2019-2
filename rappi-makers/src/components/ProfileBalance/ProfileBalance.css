@@ -1,0 +1,45 @@
+.balance-btn {
+  min-width: 7rem;
+  width: 100%;
+  padding: 0.4rem 0.6rem;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(108, 160, 255);
+  color: rgb(108, 160, 255);
+  border-radius: 1rem;
+  cursor: pointer;
+  font-size: 17px;
+  transition: 0.2s ease-in-out;
+  margin: 2% 0;
+}
+.balance-form-container {
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.balance-btn:hover {
+  background-color: rgb(108, 160, 255);
+  color: white;
+}
+
+.balance-input {
+  display: block;
+  margin: 0.7rem 0;
+  padding: 0.5rem 1rem 0.5rem 0.3rem;
+  border-radius: 0.2rem;
+  background-color: #fdfdfd;
+  border: 1px solid rgb(150, 150, 150);
+  font-size: 14px;
+  letter-spacing: 2px;
+  transition: all 0.01s ease-in-out;
+}
+
+.balance-input:focus {
+  border-color: rgba(0, 115, 247, 0.507);
+  box-shadow: 1px 1px 2px 3px rgba(0, 115, 247, 0.233);
+}
+
+.balance-spinner {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
